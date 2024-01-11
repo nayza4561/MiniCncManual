@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -16,20 +17,30 @@ nav {
     left: 0;
     right: 0;
     text-shadow: 0 0 5px black;
+    transition: 0.3s;
 }
 
 .menu-nav {
     text-decoration: none;
     color: white;
-    background-color: transparent;
+    background-color: c;
     padding: 15px 23px;
     transition: 0.1s;
+    border: none;
+    background-color: transparent;
+    & i {
+        text-shadow: 0 0 5px black;
+    }
 }
 
 .menu-nav:hover {
     background-color: rgb(155, 241, 126);
     color: black;
     text-shadow: none;
+}
+
+#navMenu {
+    display: flex;
 }
 
 /* ---------- index Banner ---------- */
@@ -65,6 +76,17 @@ nav {
     box-shadow: 0 0 8px lightgray;
 }
 
+.aboutContainer {
+    display: flex;
+    flex-direction: row;
+}
+
 .indexAbout {
     font-size: 20px;
+    text-align: justify;
+}
+@media screen and (max-width: 767px) {
+    .aboutContainer {
+        flex-direction: column;
+    }
 }

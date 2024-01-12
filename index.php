@@ -17,23 +17,22 @@
 <body>
     <?php require("components/nav.php"); ?>
     <!-- banner -->
-    <div class="indexBanner p-4">
+    <div class="indexBanner p-4 text-center">
         <h1>ยินดีต้อนรับเข้าสู่เว็บไซต์คู่มือการใช้งานเครื่อง Mini CNC</h1>
-        <button class="indexBannerbtn">Start</button>
+        <button class="indexBannerbtn" onclick="window.location.href='home.php' ">Start</button>
     </div>
     <div class="container px-5 my-4 text-center">
-        <!-- <h2>วัตถุประสงค์ของการทำเว็บไซต์นี้ขึ้น</h2> -->
-        <div class="aboutContainer justify-content-around gap-5 mt-5">
+        <h2>วัตถุประสงค์ของเว็บไซต์</h2>
+        <div class="aboutContainer justify-content-around gap-5 mt-3 mb-5">
             <span class="indexAbout w-100">
                 เพื่อแนวทาง วิทยาทานในการปฎิบัติในการใช้เครื่อง Mini CNC เพื่อใช้ในการสร้างสรรค์ผลงานแกะสลักอัตโนมัติขนาดย่อม ด้วยเครื่อง MiniCNC ผู้ใช้งานใหม่ ทำไปใช้งาน ตามความต้องการได้อย่างถูกต้องแม่นยำและปลอดภัยเพื่อการศึกษาความรู้ในการนำไปเผยแพร่วิธีการใช้ หรือใช้ในสื่อการเรียนการสอน ช่วยในการรวบรวมข้อมูลสำหรับผู้ที่สนใจศึกษาในเรื่องของการใช้เครื่อง Mini CNC เป็นอีกหนึ่งแหล่งข้อมูลที่ช่วยได้ไม่มากก็น้อย เพื่อความสะดวกสบายของผู้หาข้อมูล
             </span>
             <span class="indexAbout w-100">
-                มินิซีเอ็นซี(MINI CNC) MINI CNC คือ เครื่องซีเอ็นซีจิ๋ว ออกแบบมาเพื่องานขนาดเล็ด ใช้ได้ทั้งการแกะสลัก แบบ 2 มิติ และงานแกะสลักแบบ 3 มิติ นูนต่ำ รวมทั้งบางรุ่นยังแกะสลักแบบลอยตัว ไดอีกด้วย โดยใช้เครื่อง MINI CNC แบบ 4 แกน (4 AXIS CNC ENGRAVER)
+                มินิซีเอ็นซี (Mini CNC) Mini CNC คือ เครื่องซีเอ็นซีจิ๋ว ออกแบบมาเพื่องานขนาดเล็ด ใช้ได้ทั้งการแกะสลัก แบบ 2 มิติ และงานแกะสลักแบบ 3 มิติ นูนต่ำ รวมทั้งบางรุ่นยังแกะสลักแบบลอยตัว ไดอีกด้วย โดยใช้เครื่อง Mini CNC แบบ 4 แกน (4 AXIS CNC ENGRAVER)
             </span>
 
         </div>
     </div>
-    <script src="assets/js/navScroll.js"></script>
 </body>
 
 </html>

@@ -12,4 +12,4 @@
     </button>
 </nav>
 
-<script src="assets/js/threeLines.js"></script>
+<script src="assets/js/navBar.js"></script>

@@ -14,29 +14,29 @@
     <title>Project CNC</title>
 </head>
 
-<body class="homeBg">
+<body>
     <?php require("components/nav.php"); ?>
 
-    <div class="mainMenu">
-        <div class="menu rounded-4">
-            <img src="assets/img/menu-1.png" alt="">
-            <h5>ข้อมูลทั่วไป</h5>
-        </div>
-        <div class="menu rounded-4">
-            <img src="assets/img/menu-2.png" alt="">
-            <h5>ความปลอดภัย</h5>
-        </div>
-        <div class="menu rounded-4">
-            <img src="assets/img/menu-3.png" alt="">
-            <h5>องค์ประกอบเครื่อง CNC</h5>
-        </div>
-        <div class="menu rounded-4">
-            <img src="assets/img/menu-4.png" alt="">
-            <h5>โปรแกรมที่ร่วมใช้</h5>
+    <h1 class="contactHead">จัดทำโดย</h1>
+
+    <div class="container">
+        <div class="mainContact">
+            <div class="contactDetail gap-3 shadow p-3">
+                <img class="contactImg" src="assets/img/Do.jpg">
+                <div>
+                    <h5>Facebook : Deedo Ekkapong</h5>
+                    <h5>Instagram : Yami_soisoi</h5>
+                    <h5>Line : dedo55yo</h5>
+                </div>
+            </div>
+            <div class="contactDetail gap-3 shadow p-3">
+                <img class="contactImg" src="assets/img/Nine.jpg">
+            </div>
+            <div class="contactDetail gap-3 shadow p-3">
+                <img class="contactImg" src="assets/img/Few.png">
+            </div>
         </div>
     </div>
-    
-    
 </body>
 
 </html>

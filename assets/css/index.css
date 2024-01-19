@@ -105,3 +105,57 @@ nav {
     background-size: cover;
     background-attachment: fixed;
 }
+
+.mainMenu {
+    margin: 200px auto;
+    max-width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.menu {
+    box-shadow: 0 0 13px black;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    align-items: center;
+    padding: 13px;
+    cursor: pointer;
+    background-color: white;
+    transition: 0.1s;
+    /* border: 5px solid gray; */
+    & img {
+        width: 100px;
+    }
+}
+
+.menu:hover {
+    background-color: rgb(199, 198, 198);
+}
+
+/* ---------- Contact page ---------- */
+
+.contactHead {
+    margin: 130px;
+    text-align: center;
+}
+
+.contactImg {
+    max-width: 200px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.mainContact {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 150px;
+}
+
+.contactDetail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

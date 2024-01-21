@@ -23,17 +23,54 @@
         <div class="mainContact">
             <div class="contactDetail gap-3 shadow p-3">
                 <img class="contactImg" src="assets/img/Do.jpg">
-                <div>
-                    <h5>Facebook : Deedo Ekkapong</h5>
-                    <h5>Instagram : Yami_soisoi</h5>
-                    <h5>Line : dedo55yo</h5>
+                <div class="w-100">
+                    <div class="d-flex flex-row justify-content-between align-items-center mb-2 fs-4">
+                        <img class="iconImg" src="assets/img/facebook.png">
+                        <span>Deedo Ekkapong</span>
+                    </div>
+                    <div class="d-flex flex-row justify-content-between align-items-center mb-2 fs-4">
+                        <img class="iconImg" src="assets/img/instagram.png">
+                        <span>Yami_soisoi</span>
+                    </div>
+                    <div class="d-flex flex-row justify-content-between align-items-center fs-4">
+                        <img class="iconImg" src="assets/img/line.png">
+                        <span>dedo55yo</span>
+                    </div>
                 </div>
             </div>
             <div class="contactDetail gap-3 shadow p-3">
                 <img class="contactImg" src="assets/img/Nine.jpg">
+                <div class="w-100">
+                    <div class="d-flex flex-row justify-content-between align-items-center mb-2 fs-4">
+                        <img class="iconImg" src="assets/img/facebook.png">
+                        <span>ธนภัทร ธงศิลา</span>
+                    </div>
+                    <div class="d-flex flex-row justify-content-between align-items-center mb-2 fs-4">
+                        <img class="iconImg" src="assets/img/instagram.png">
+                        <span>thanaphat_thongsila</span>
+                    </div>
+                    <div class="d-flex flex-row justify-content-between align-items-center fs-4">
+                        <img class="iconImg" src="assets/img/line.png">
+                        <span>nayza456</span>
+                    </div>
+                </div>
             </div>
             <div class="contactDetail gap-3 shadow p-3">
                 <img class="contactImg" src="assets/img/Few.png">
+                <div class="w-100">
+                    <div class="d-flex flex-row justify-content-between align-items-center mb-2 fs-4">
+                        <img class="iconImg" src="assets/img/facebook.png">
+                        <span>ฟิวส์ คง</span>
+                    </div>
+                    <div class="d-flex flex-row justify-content-between align-items-center mb-2 fs-4">
+                        <img class="iconImg" src="assets/img/instagram.png">
+                        <span>few_ppp</span>
+                    </div>
+                    <div class="d-flex flex-row justify-content-between align-items-center fs-4">
+                        <img class="iconImg" src="assets/img/line.png">
+                        <span>241048ff</span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

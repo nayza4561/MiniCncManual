@@ -4,7 +4,13 @@
     echo "";
 } ?>">
     <a href="index.php" class="text-decoration-none text-light">
-        <h2 class="mb-0">หน้าหลัก</h2>
+        <h2 class="mb-0">
+            <?php if ($_SERVER["PHP_SELF"] == "/minicncmanual/index.php") : ?>
+                <span>หน้าหลัก</span>
+            <?php else : ?>
+                <span>หน้าแรก</span>
+            <?php endif ?>    
+        </h2>
     </a>
     <div id="navMenu" class="align-items-center">
         <a href="contact.php" class="menu-nav">Contact</a>

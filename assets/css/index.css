@@ -222,3 +222,29 @@ nav {
         padding: 0 40px;
     }
 }
+
+/* ************** general page *************** */
+
+.generalBanner {
+    width: 100%;
+    height: 400px;
+    background-image: url('../img/cnc-banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.textBannergeneral {
+    transition: 0.3s;
+    cursor: default;
+}
+
+.textBannergeneral:hover {
+    translate: 0 -23px;
+}
+
+.genContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+}

@@ -16,7 +16,39 @@
 
 <body>
     <?php require("components/nav.php"); ?> 
+    <!-- banner***** -->
 
+    <div class="generalBanner d-flex align-items-center justify-content-center">
+        <h1 class="text-light textBannergeneral text-center" style="text-shadow: 0 3px 8px black; font-size: 65px;">ข้อมูลทั่วไปของเครื่อง Mini CNC</h1>
+    </div>
+
+    <!-- ********* main information ********** -->
+    <div class="container d-flex flex-column my-3 border border-2 rounded ">
+        <div class="genContainer text-center p-3">
+            <h3>ชื่อเครื่องมือ (Machine name)</h3>
+            <h3>เครื่องแกะสลักขนาดเล็ก MINI CNC3040N</h3>
+        </div>
+        <div class="genContainer text-center p-3">
+            <h3>ยี่ห้อ(Brand)</h3>
+            <h3>โลโบเทค มินิซีเอ็นซี ( ROBOTECH MINI CNC)
+เครื่องแกะสลักน้องใหม่จากค่าย ROBOTECH เปิดตลาดครั้งแรกในประเทศไทยในปี 2512 นี่เอง แต่ผลิตขายทั่วโลกแล้วกว่า 8 ปี โครงสร้างทำจากอลูมิเนียม อันลอย (ALUMINIUM ALLOY) เกรดพิเศษจากต่างประเทศ แข็งแรง ทนทาน สวยงามดูบึกบึนเป็นพิเศษ ขนาดพื้นที่โต๊ะ 525 x 320 mm พื้นที่สลัก 390x280x55mm ขับเคลื่อนโดยใช้ STEP MOTOR คุณภาพดี</h3>
+        </div>
+        <div class="genContainer text-center p-3">
+            <h3>ปีที่เริ่มคิดค้น(Year began to invent)</h3>
+            <h3>ในเดือนกันยายนปีค.ศ.1952 MIT เปิดแสดงสาธิตเครื่องจักร NC เครื่องแรกของโลก</h3>
+        </div>
+        <div class="genContainer text-center p-3">
+            <h3>น้ำหนัก(Weight)</h3>
+            <h3>40 kg</h3>
+        </div>
+        <div class="genContainer text-center p-3">
+            <h3>ระบบไฟ(Electrical system)</h3>
+            <h3>AC220V/110V</h3>
+        </div>
+        <div class="genContainer text-center p-3">
+            <h3>การเลื่อนที่ของเครื่อง(Movement)</h3>
+            <h3>Chromeplate shaft</h3>
+        </div>
+    </div>
 </body>
-
 </html>

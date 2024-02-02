@@ -3,7 +3,13 @@
 } else {
     echo "";
 } ?>">
-    <a href="index.php" class="text-decoration-none text-light">
+    <a href="<?php if ($_SERVER["PHP_SELF"] == "/minicncmanual/index.php") {
+        echo "home.php";
+    } else if ($_SERVER["PHP_SELF"] == "/minicncmanual/home.php") {
+        echo "index.php";
+    } else {
+        echo "home.php";
+    } ?>" class="text-decoration-none text-light">
         <h2 class="mb-0">
             <?php if ($_SERVER["PHP_SELF"] == "/minicncmanual/index.php") : ?>
                 <span>หน้าหลัก</span>
@@ -13,6 +19,7 @@
         </h2>
     </a>
     <div id="navMenu" class="align-items-center">
+        <a href="home.php" class="menu-nav">Main menu</a>
         <a href="contact.php" class="menu-nav">Contact</a>
         <a href="#" class="menu-nav">About</a>
     </div>

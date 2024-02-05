@@ -11,44 +11,73 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
-    <title>Project CNC</title>
+    <title>ข้อมูลทั่วไป</title>
 </head>
 
 <body>
-    <?php require("components/nav.php"); ?> 
+    <?php require("components/nav.php"); ?>
     <!-- banner***** -->
 
     <div class="generalBanner d-flex align-items-center justify-content-center">
         <h1 class="text-light textBannergeneral text-center" style="text-shadow: 0 3px 8px black; font-size: 65px;">ข้อมูลทั่วไปของเครื่อง Mini CNC</h1>
     </div>
 
-    <!-- ********* main information ********** -->
-    <div class="container d-flex flex-column my-3 border border-2 rounded ">
-        <div class="genContainer text-center p-3">
-            <h3>ชื่อเครื่องมือ (Machine name)</h3>
-            <h3>เครื่องแกะสลักขนาดเล็ก MINI CNC3040N</h3>
-        </div>
-        <div class="genContainer text-center p-3">
-            <h3>ยี่ห้อ(Brand)</h3>
-            <h3>โลโบเทค มินิซีเอ็นซี ( ROBOTECH MINI CNC)
-เครื่องแกะสลักน้องใหม่จากค่าย ROBOTECH เปิดตลาดครั้งแรกในประเทศไทยในปี 2512 นี่เอง แต่ผลิตขายทั่วโลกแล้วกว่า 8 ปี โครงสร้างทำจากอลูมิเนียม อันลอย (ALUMINIUM ALLOY) เกรดพิเศษจากต่างประเทศ แข็งแรง ทนทาน สวยงามดูบึกบึนเป็นพิเศษ ขนาดพื้นที่โต๊ะ 525 x 320 mm พื้นที่สลัก 390x280x55mm ขับเคลื่อนโดยใช้ STEP MOTOR คุณภาพดี</h3>
-        </div>
-        <div class="genContainer text-center p-3">
-            <h3>ปีที่เริ่มคิดค้น(Year began to invent)</h3>
-            <h3>ในเดือนกันยายนปีค.ศ.1952 MIT เปิดแสดงสาธิตเครื่องจักร NC เครื่องแรกของโลก</h3>
-        </div>
-        <div class="genContainer text-center p-3">
-            <h3>น้ำหนัก(Weight)</h3>
-            <h3>40 kg</h3>
-        </div>
-        <div class="genContainer text-center p-3">
-            <h3>ระบบไฟ(Electrical system)</h3>
-            <h3>AC220V/110V</h3>
-        </div>
-        <div class="genContainer text-center p-3">
-            <h3>การเลื่อนที่ของเครื่อง(Movement)</h3>
-            <h3>Chromeplate shaft</h3>
-        </div>
+    <!-- main table -->
+
+    <div class="container my-3">
+        <table class="table border border-2 table-bordered">
+            <tbody>
+                <tr>
+                    <td>
+                        <h4>ชื่อเครื่องมือ (Machine name)</h4>
+                    </td>
+                    <td>
+                        <h4>เครื่องแกะสลักขนาดเล็ก MINI CNC3040N</h4>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h4>ยี่ห้อ(Brand)</h4>
+                    </td>
+                    <td>
+                        <h4>โลโบเทค มินิซีเอ็นซี ( ROBOTECH MINI CNC) เครื่องแกะสลักน้องใหม่จากค่าย ROBOTECH เปิดตลาดครั้งแรกในประเทศไทยในปี 2512 นี่เอง แต่ผลิตขายทั่วโลกแล้วกว่า 8 ปี โครงสร้างทำจากอลูมิเนียม อันลอย (ALUMINIUM ALLOY) เกรดพิเศษจากต่างประเทศ แข็งแรง ทนทาน สวยงามดูบึกบึนเป็นพิเศษ ขนาดพื้นที่โต๊ะ 525 x 320 mm พื้นที่สลัก 390x280x55mm ขับเคลื่อนโดยใช้ STEP MOTOR คุณภาพดี</h4>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h4>ปีที่เริ่มคิดค้น(Year began to invent)</h4>
+                    </td>
+                    <td>
+                        <h4>เดือนกันยายน ปี ค.ศ.1952 MIT เปิดแสดงสาธิตเครื่องจักร NC เครื่องแรกของโลก</h4>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h4>น้ำหนัก(Weight)</h4>
+                    </td>
+                    <td>
+                        <h4>40 kg</h4>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h4>ระบบไฟ(Electrical system)</h4>
+                    </td>
+                    <td>
+                        <h4>AC220V/110V</h4>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h4>การเลื่อนที่ของเครื่อง(Movement)</h4>
+                    </td>
+                    <td>
+                        <h4>Chromeplate shaft</h4>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 </body>
+
 </html>

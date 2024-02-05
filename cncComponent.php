@@ -11,32 +11,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
-    <title>เมนูหลัก</title>
+    <title>Project CNC</title>
 </head>
 
-<body class="homeBg">
+<body>
     <?php require("components/nav.php"); ?>
-
-    <div class="mainMenu container">
-        <div class="menu rounded-4" onclick="window.location.href='general.php'; ">
-            <img src="assets/img/menu-1.png" alt="">
-            <h5>ข้อมูลทั่วไป</h5>
-        </div>
-        <div class="menu rounded-4" onclick="window.location.href='security.php'; ">
-            <img src="assets/img/menu-2.png" alt="">
-            <h5>ความปลอดภัย</h5>
-        </div>
-        <div class="menu rounded-4" onclick="window.location.href='cncComponent.php'; ">
-            <img src="assets/img/menu-3.png" alt="">
-            <h5>องค์ประกอบเครื่อง CNC</h5>
-        </div>
-        <div class="menu rounded-4" onclick="window.location.href='program.php'; ">
-            <img src="assets/img/menu-4.png" alt="">
-            <h5>โปรแกรมที่ร่วมใช้</h5>
-        </div>
-    </div>
-    
-    
-</body>
-
+    <!-- banner***** -->
+        
 </html>

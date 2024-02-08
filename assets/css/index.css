@@ -274,8 +274,90 @@ nav {
     text-align: justify;
     transition: 0.2s;
     cursor: default;
+    padding: 13px;
+    border: rgb(217, 255, 48);
 }
 
 .securText:hover {
     translate: 0 -8px;
+    border-bottom: 8px solid rgb(246, 157, 56);
+}
+
+/* ***************** cncComponent page ************* */
+
+#leftMenu {
+    position: fixed;
+    top: 28px;
+    left: 0;
+    width: 330px;
+    max-height: 650px;
+    height: 330px;
+    margin-top: 5rem;
+    background-color: #f5f5f5;
+    box-shadow: 5px 5px 13px rgb(136, 136, 136);
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+#leftMenubtn {
+    background-color: #212529;
+    color: white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+#leftMenubtn:hover {
+    background-color: rgb(29, 28, 28);
+}
+
+#closeMenu {
+    background-color: #212529;
+    color: white;
+    width: 63px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+#closeMenu:hover {
+    background-color: #35383a;
+}
+
+.leftMenulist {
+    padding: 8px;
+    background-color: #47494b;
+    color: white;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.leftMenulist:hover {
+    background-color: rgb(155, 241, 126);
+    color:#212529
+}
+
+.listDarker {
+    background-color: #2a2b2c;
+}
+
+.listDarker:hover {
+    background-color: #f5f5f5;
+    color: #212529;
+}
+
+.componentWrapper {
+    max-width: 1100px;
+    width: 100%;
+    margin-left: 360px;
+    margin-top: 200px;
 }

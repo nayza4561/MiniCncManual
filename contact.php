@@ -17,7 +17,7 @@
 <body>
     <?php require("components/nav.php"); ?>
 
-    <h1 class="contactHead">จัดทำโดย</h1>
+    <h1 class="contactHead" style="text-shadow: 3px 3px 5px lightgray;">จัดทำโดย</h1>
 
     <div class="containerContact">
         <div class="mainContact">

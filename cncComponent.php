@@ -16,6 +16,44 @@
 
 <body>
     <?php require("components/nav.php"); ?>
-    <!-- banner***** -->
-        
+    <!-- left menu ***** -->
+
+    <div id="leftMenu">
+        <div class="d-flex flex-row align-items-center justify-content-between bg-dark text-light px-3">
+            <h4 class="mb-0">เลือกหัวข้อ</h4>
+            <div id="closeMenu" onclick="slideMenu()">
+                <div class="d-flex align-items-center gap-1">
+                    <span>Close</span>
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-column">
+            <div class="leftMenulist">ระบบควบคุมเครื่องจักร</div>
+            <div class="leftMenulist" type="button" data-bs-toggle="collapse" data-bs-target="#menuCollapse">
+                <span class="pe-3">ส่วนประกอบที่สำคัญ</span>
+                <i class="fa-solid fa-arrow-down"></i>
+            </div>
+            <div class="d-flex flex-column">
+                <div class="leftMenulist listDarker collapse" id="menuCollapse">แท่นเครื่อง</div>
+                <div class="leftMenulist listDarker collapse" id="menuCollapse">หมอนรอง</div>
+                <div class="leftMenulist listDarker collapse" id="menuCollapse">โต๊ะ</div>
+                <div class="leftMenulist listDarker collapse" id="menuCollapse">ชุดสปินเดิ้ล</div>
+                <div class="leftMenulist listDarker collapse" id="menuCollapse">ชุดขับแกนการเคลื่อนที่ต่าง ๆ</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ***************************** -->
+
+    <div class="componentWrapper">
+        <p>มีหน้าที่รับคำสั่งจากผู้ใช้ที่ป้อนข้อมูลให้ผ่านทางโปรแกรม และส่งคำสั่งนี้ต่อไปยังชุดเคลื่อนที่ และส่วนการทำงานอื่นๆ ให้ทำงานสัมพันธ์กับคำสั่ง</p>
+        <h3>ชุดควบคุมคำสั่งประกอบด้วย</h3>
+        <ul>
+            <li>ชุดติดต่อกับผู้ใช้ เป็นส่วนทำหน้าที่สื่อสารระหว่างผู้ใช้กับเครื่องจักร รายงานสภาวะการทำงานต่างๆ ที่เกิดขึ้น เช่น ตำแหน่งของแกน ความเร็วรอบของแกน โดยชุดติดต่อกับผู้ใช้นี้ประกอบไปด้วย จอภาพ คีย์บอร์ด ปุ่มสวิตซ์ควบคุมการทำงานต่างๆ เช่น ความเร็วในการเคลื่อนที่ ความเร็วรอบ</li>
+            <li>ชุดควบคุมเครื่องจักร ทำหน้าที่รับและจัดเก็บข้อมูลต่างๆ ที่รับมาจากชุดติดต่อกับผู้ใช้ แล้วทำการแปลงข้อมูลให้เป็นสัญญาณทางไฟฟ้า เพื่อส่งให้กับส่วนทำงานต่างๆ เช่น ชุดขับเคลื่อนแกน ( Stepper Motor, Servo motor ) โดยส่วนนี้จะประกอบด้วย ส่วนคำนวณ หรือ Microprocessor, หน่วยความจำ, ชุดขับแกน และสปินเดิ้ล รวมกับชุดควบคุมขั้นตอนการทำงาน</li>
+        </ul>
+    </div>
+    
+    <script src="assets/js/leftMenu.js"></script>
 </html>

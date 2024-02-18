@@ -38,7 +38,6 @@
     <div id="navMenu" class="align-items-center">
         <a href="home.php" class="menu-nav">Main menu</a>
         <a href="contact.php" class="menu-nav">Contact</a>
-        <a href="#" class="menu-nav">About</a>
     </div>
 </nav>
 

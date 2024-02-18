@@ -294,7 +294,7 @@ nav {
     height: 330px;
     margin-top: 5rem;
     background-color: #f5f5f5;
-    box-shadow: 5px 5px 13px rgb(136, 136, 136);
+    box-shadow: 5px 5px 13px rgb(53, 53, 53);
     overflow: hidden;
     transition: 0.2s;
 }
@@ -356,8 +356,67 @@ nav {
 }
 
 .componentWrapper {
+    background-color: white;
+    padding: 23px;
+    border-radius: 18px;
+    box-shadow: 0 5px 8px rgb(53, 53, 53);
+}
+
+.compBg {
+    background-image: url("../img/componentBg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.responsiveBox {
     max-width: 1100px;
     width: 100%;
     margin-left: 360px;
-    margin-top: 200px;
+    margin-top: 10%;
+}
+
+@media screen and (max-width: 1480px) {
+    .responsiveBox {
+        max-width: 850px;
+    }
+}
+@media screen and (max-width: 1227px) {
+    .responsiveBox {
+        max-width: 650px;
+    }
+}
+@media screen and (max-width: 1035px) {
+    .responsiveBox {
+        max-width: 500px;
+    }
+}
+@media screen and (max-width: 890px) {
+    .responsiveBox {
+        max-width: 350px;
+    }
+}
+@media screen and (max-width: 730px) {
+    .responsiveBox {
+        max-width: 500px;
+        margin: 68% auto;
+    }
+}
+@media screen and (max-width: 657px) {
+    .responsiveBox {
+        max-width: 500px;
+        margin: 75% auto;
+    }
+}
+@media screen and (max-width: 598px) {
+    .responsiveBox {
+        max-width: 500px;
+        margin: 85% auto;
+    }
+}
+@media screen and (max-width: 525px) {
+    .responsiveBox {
+        max-width: 500px;
+        margin: 98% auto;
+    }
 }

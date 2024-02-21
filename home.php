@@ -32,11 +32,12 @@
         </div>
         <div class="menu rounded-4" onclick="window.location.href='program.php'; ">
             <img src="assets/img/menu-4.png" alt="">
-            <h5>โปรแกรมที่ร่วมใช้</h5>
+            <h5>โปรแกรมที่ร่วมใช้ และการใช้งาน</h5>
         </div>
     </div>
     
-    
+    <!-- -----footer----------- -->
+    <?php require("components/footer.php"); ?>
 </body>
 
 </html>

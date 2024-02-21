@@ -24,7 +24,7 @@
 
     <!-- main table -->
 
-    <div class="container my-3">
+    <div class="container my-3 mb-5">
         <table class="table border border-2 table-bordered">
             <tbody>
                 <tr>
@@ -78,6 +78,8 @@
             </tbody>
         </table>
     </div>
+    <!-- -----footer----------- -->
+    <?php require("components/footer.php"); ?>
 </body>
 
 </html>

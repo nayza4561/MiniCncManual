@@ -9,6 +9,10 @@ body::-webkit-scrollbar {
     width: 0;
 }
 
+.text-jtf {
+    text-align: justify;
+}
+
 /* ---------- navbar ---------- */
 
 nav {
@@ -47,6 +51,25 @@ nav {
 
 #threelineIcon:hover {
     text-shadow: none;
+}
+
+/* ---------- Footer ---------- */
+
+.footerIconwrapper {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    & img {
+        width: 100%;
+    }
+}
+
+.footerCC {
+    background-color: #111111;
+    color:#c4c4c4;
 }
 
 /* ---------- index Banner ---------- */

@@ -1,6 +1,10 @@
-<nav id="navBar" class="d-flex flex-row justify-content-between align-items-center px-4 <?php if ($_SERVER["PHP_SELF"] == "/minicncmanual/contact.php" || $_SERVER["PHP_SELF"] == "/MiniCncManual/contact.php") {
+<nav id="navBar" class="d-flex flex-row justify-content-between align-items-center px-4 <?php if ($_SERVER["PHP_SELF"] == '/minicncmanual/contact.php' || $_SERVER['PHP_SELF'] == '/MiniCncManual/contact.php') {
     echo "bg-dark";
 } else if ($_SERVER["PHP_SELF"] == "/minicncmanual/cncComponent.php" || $_SERVER["PHP_SELF"] == "/MiniCncManual/cncComponent.php") {
+    echo "bg-dark";
+} else if ($_SERVER["PHP_SELF"] == "/minicncmanual/program-1.php" || $_SERVER["PHP_SELF"] == "/MiniCncManual/program-1.php") {
+    echo "bg-dark";
+} else if ($_SERVER["PHP_SELF"] == "/minicncmanual/program-2.php" || $_SERVER["PHP_SELF"] == "/MiniCncManual/program-2.php") {
     echo "bg-dark";
 } else {
     echo "";

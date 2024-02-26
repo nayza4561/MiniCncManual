@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
-    <title>Project CNC</title>
+    <title>องค์ประกอบที่สำคัญของเครื่อง Mini CNC</title>
 </head>
 
 <body class="compBg">
@@ -142,5 +142,8 @@
         </div>
     </div>
 
+    <!-- -----footer----------- -->
+    <?php require("components/footer.php"); ?>
+</body>
     <script src="assets/js/leftMenu.js"></script>
 </html>
